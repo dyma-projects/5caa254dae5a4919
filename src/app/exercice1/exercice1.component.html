@@ -1,1 +1,7 @@
 <p>exercice1 works!</p>
+<p> Exemple de liaison sur un attribut</p>
+<img [src]='imageLink'>
+<p> Exemple de liaison sur un évènement mousseenter</p>
+<img [src]='luciferImage' (mouseenter)='switchImageEnter($event)' (mouseleave)='switchImageLeave($event)'>
+<p> Exemple de liaison avec une interpolation de variable</p>
+<p>Si debugger, c’est supprimer des bugs, alors programmer ne peut être que les ajouter — {{ author }}</p>
