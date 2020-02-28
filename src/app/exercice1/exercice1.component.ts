@@ -13,7 +13,6 @@ export class Exercice1Component implements OnInit {
   
   constructor() { 
     this.imageLink = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDQZQjH3A3tI1vrmaThKgoRc3Wx0BTSFLtVhpNNW_aTwkoNfIm';
-    this.luciferImage
   }
   
   switchImageEnter(event: Event): void{
